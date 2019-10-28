@@ -1,58 +1,21 @@
-<html>
-    <head></head>
-    <style>
-        body {
-            max-width: 100px;
-        }
-        .block {
-            position: absolute;
-            width:100%;
-            display: block;
-            top:20%;
-        }
-        .con {  
-            font-size:50px;
-            padding-top:20px;
-            color:white;
-            width:10%;
-            position: absolute;            
-            height:100px;
-            background-color: royalblue;            
-            transition:1s;
-        }
-        div:hover {            
-            width:100%;
-            transition:1s;
-        }
-        nav {
-            font-size:50px;
-            padding-top:20px;
-            color:white;
-            width:5%;
-            position: absolute;            
-            height:100px;
-            background-color: aquamarine;            
-            transition:1s;
-            white-space: nowrap;
-        }
-        .cont {
-            opacity:0;
-        }
-        nav:hover > .cont {
-            opacity:1;
-            transition:opacity 1s;
-        }
-        nav:hover {
-            width:18%;
-            transition:1s;
-        }
-    </style>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./test.css">
+        <link rel="stylesheet" href="lib.css">
+    </head>
     <body>
-    <div class="block">
-        <div class="con">BLOCK</div>
-    </div>
+     
         <nav class="inline">
             <div class="cont">INLINE-BLOCK</div>
         </nav>
+        <div class="block">
+            <div class="con">
+                <div class="contt">BLOCK</div>
+            </div>
+        </div>        
+        <div class="nav-box-1">
+        <a href="./">목록보기</a>
+        </div>
     </body>
 </html>

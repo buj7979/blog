@@ -1,0 +1,70 @@
+body {
+    background-color:black;
+}
+
+.block {
+    position: absolute;
+    width:100%;
+    display: block;
+    top:20%;
+}
+.con {  
+    overflow: hidden;
+    margin: 0 auto;
+    font-size:50px;
+    padding-top:20px;
+    color:white;
+    width:10%;
+    position: absolute;            
+    height:100px;
+    background-color: royalblue;            
+    transition:2s;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.con:hover {            
+    width:100%;
+    transition:1s;
+}
+.contt {
+    text-align: center;
+    opacity: 0;
+    
+}
+.con:hover > .contt {
+    opacity: 1;
+    transition:opacity 1s;
+}
+.inline {
+    font-size:50px;
+    padding-top:20px;
+    color:white;
+    width:10%;
+    position: absolute;            
+    height:100px;
+    background-color: aquamarine;            
+    transition:1.5s;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.cont {
+    opacity:0;
+    text-align: center;
+    
+}
+.inline:hover > .cont {
+    opacity:1;
+    transition:opacity 1.5s;
+}
+.inline:hover {
+    width:15.5%;
+    transition:.5s;
+}
+.nav-box-1 {
+    top:100%;
+}
